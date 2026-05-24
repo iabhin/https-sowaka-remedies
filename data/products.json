@@ -1,0 +1,134 @@
+[
+  {
+    "id": "1",
+    "slug": "ashwagandha-capsules",
+    "name": "Ashwagandha Capsules",
+    "shortDescription": "Premium adaptogenic support for stress relief, vitality, and balanced energy.",
+    "description": "Our Ashwagandha Capsules are crafted from organically sourced Withania somnifera root, traditionally used in Ayurveda to support the body's natural response to stress. Each capsule delivers a potent, standardized extract to help restore calm, enhance stamina, and promote restorative sleep — without artificial additives.",
+    "image": "/products/ashwagandha.svg",
+    "benefits": [
+      "Helps manage daily stress and anxiety",
+      "Supports natural energy and stamina",
+      "Promotes restful, quality sleep",
+      "Enhances overall vitality and resilience"
+    ],
+    "ingredients": [
+      "Organic Ashwagandha Root Extract (Withania somnifera)",
+      "Vegetable Cellulose Capsule",
+      "No artificial colors, preservatives, or fillers"
+    ],
+    "usage": "Take 1–2 capsules daily with warm water or milk, preferably after meals, or as directed by your Ayurvedic practitioner.",
+    "featured": true,
+    "price": "₹499"
+  },
+  {
+    "id": "2",
+    "slug": "triphala-powder",
+    "name": "Triphala Powder",
+    "shortDescription": "Classic three-fruit blend for gentle detox, digestion, and gut wellness.",
+    "description": "Triphala is one of Ayurveda's most revered formulations — a harmonious blend of Amalaki, Bibhitaki, and Haritaki. Our finely milled powder supports gentle cleansing, healthy digestion, and regular elimination while nourishing the body's natural detox pathways.",
+    "image": "/products/triphala.svg",
+    "benefits": [
+      "Supports healthy digestion and metabolism",
+      "Gently cleanses and detoxifies the body",
+      "Promotes regular bowel movements",
+      "Rich in natural antioxidants"
+    ],
+    "ingredients": [
+      "Amalaki (Emblica officinalis)",
+      "Bibhitaki (Terminalia bellirica)",
+      "Haritaki (Terminalia chebula)"
+    ],
+    "usage": "Mix ½ teaspoon in warm water before bedtime, or as recommended by your healthcare provider.",
+    "featured": true,
+    "price": "₹349"
+  },
+  {
+    "id": "3",
+    "slug": "turmeric-curcumin",
+    "name": "Turmeric Curcumin",
+    "shortDescription": "High-potency curcumin for joint comfort, immunity, and inflammation balance.",
+    "description": "Harness the golden power of turmeric with our enhanced Curcumin formula, combined with black pepper extract (piperine) for superior absorption. Traditionally valued for its anti-inflammatory properties, this supplement supports joint mobility, immune function, and overall wellness.",
+    "image": "/products/turmeric.svg",
+    "benefits": [
+      "Supports joint comfort and flexibility",
+      "Promotes healthy inflammatory response",
+      "Boosts natural immunity",
+      "Powerful antioxidant protection"
+    ],
+    "ingredients": [
+      "Turmeric Root Extract (95% Curcuminoids)",
+      "Black Pepper Extract (Piperine)",
+      "Vegetable Cellulose Capsule"
+    ],
+    "usage": "Take 1 capsule twice daily with meals for optimal absorption.",
+    "featured": true,
+    "price": "₹449"
+  },
+  {
+    "id": "4",
+    "slug": "chyawanprash",
+    "name": "Chyawanprash",
+    "shortDescription": "Ancient immunity elixir with 40+ herbs for strength, vitality, and seasonal wellness.",
+    "description": "Our Chyawanprash follows the classical Ayurvedic recipe passed down through generations. This rich, aromatic jam combines over 40 herbs and spices with Amla (Indian Gooseberry) as the base — a time-tested tonic for building immunity, enhancing respiratory health, and nourishing the body from within.",
+    "image": "/products/chyawanprash.svg",
+    "benefits": [
+      "Strengthens natural immunity",
+      "Supports respiratory health",
+      "Enhances energy and vitality",
+      "Nourishes all body tissues (Rasayana)"
+    ],
+    "ingredients": [
+      "Amla (Emblica officinalis)",
+      "Ashwagandha, Pippali, Guduchi, and 35+ traditional herbs",
+      "Pure forest honey and organic jaggery"
+    ],
+    "usage": "Take 1–2 teaspoons daily on an empty stomach in the morning, followed by warm milk or water.",
+    "featured": true,
+    "price": "₹599"
+  },
+  {
+    "id": "5",
+    "slug": "brahmi-memory-support",
+    "name": "Brahmi Memory Support",
+    "shortDescription": "Cognitive clarity and mental focus from the sacred herb of Ayurveda.",
+    "description": "Brahmi (Bacopa monnieri) has been celebrated for millennia as a Medhya Rasayana — a brain tonic that sharpens memory, enhances concentration, and calms the mind. Our standardized extract delivers consistent potency for students, professionals, and anyone seeking mental clarity.",
+    "image": "/products/brahmi.svg",
+    "benefits": [
+      "Enhances memory and learning capacity",
+      "Improves focus and concentration",
+      "Calms the nervous system",
+      "Supports healthy cognitive aging"
+    ],
+    "ingredients": [
+      "Brahmi Leaf Extract (Bacopa monnieri)",
+      "Standardized to 50% Bacosides",
+      "Vegetable Cellulose Capsule"
+    ],
+    "usage": "Take 1 capsule twice daily with warm water, preferably after breakfast and dinner.",
+    "featured": false,
+    "price": "₹399"
+  },
+  {
+    "id": "6",
+    "slug": "neem-tulsi-immunity",
+    "name": "Neem & Tulsi Immunity",
+    "shortDescription": "Dual-herb formula for natural defense, skin health, and inner purity.",
+    "description": "Neem and Tulsi (Holy Basil) are two of nature's most powerful purifiers. Combined in precise Ayurvedic proportions, this formula supports the immune system, promotes clear skin, and helps maintain the body's natural balance against environmental stressors.",
+    "image": "/products/neem-tulsi.svg",
+    "benefits": [
+      "Strengthens natural immune defenses",
+      "Supports clear, healthy skin",
+      "Promotes internal purification",
+      "Helps balance Pitta dosha"
+    ],
+    "ingredients": [
+      "Neem Leaf Extract (Azadirachta indica)",
+      "Tulsi Leaf Extract (Ocimum sanctum)",
+      "Vegetable Cellulose Capsule"
+    ],
+    "usage": "Take 1 capsule twice daily with water after meals.",
+    "featured": false,
+    "price": "₹379"
+  }
+]
