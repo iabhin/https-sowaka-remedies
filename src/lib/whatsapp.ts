@@ -1,7 +1,7 @@
 import type { Product } from "@/types";
 
 const WHATSAPP_NUMBER =
-  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "919876543210";
+  process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? "918848213360";
 
 export function buildWhatsAppUrl(message: string): string {
   const encoded = encodeURIComponent(message);
