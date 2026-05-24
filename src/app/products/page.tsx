@@ -12,7 +12,7 @@ export default function ProductsPage() {
   const products = getAllProducts();
 
   return (
-    <div className="pt-24">
+    <div className="pt-28">
       <ProductsSection
         products={products}
         title="All Products"

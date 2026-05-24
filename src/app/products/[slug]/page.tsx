@@ -43,7 +43,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   }
 
   return (
-    <div className="bg-cream pt-24">
+    <div className="bg-cream pt-28">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-20">
         <Link
           href="/products"

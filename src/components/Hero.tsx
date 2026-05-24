@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden bg-cream pt-20"
+      className="relative flex min-h-screen items-center overflow-hidden bg-cream pt-24 sm:pt-28"
     >
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -right-32 -top-32 h-96 w-96 rounded-full bg-sage/20 blur-3xl" />
