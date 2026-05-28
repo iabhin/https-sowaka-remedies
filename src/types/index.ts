@@ -5,6 +5,7 @@ export interface Product {
   shortDescription: string;
   description: string;
   image: string;
+  images?: string[];
   benefits: string[];
   ingredients: string[];
   usage: string;

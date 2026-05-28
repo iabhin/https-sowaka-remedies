@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import ProductImageSlider from "@/components/ProductImageSlider";
 import { getProductBySlug, getProductSlugs } from "@/lib/products";
 
 interface ProductPageProps {
@@ -23,13 +23,15 @@ export async function generateMetadata({
     return { title: "Product Not Found" };
   }
 
+  const metadataImage = product.images?.[0] ?? product.image;
+
   return {
     title: product.name,
     description: product.shortDescription,
     openGraph: {
       title: product.name,
       description: product.shortDescription,
-      images: [{ url: product.image, alt: product.name }],
+      images: [{ url: metadataImage, alt: product.name }],
     },
   };
 }
@@ -41,6 +43,11 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   if (!product) {
     notFound();
   }
+
+  const productImages =
+    product.images && product.images.length > 0
+      ? product.images
+      : [product.image];
 
   return (
     <div className="bg-cream pt-28">
@@ -56,18 +63,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         </Link>
 
         <div className="grid items-start gap-10 lg:grid-cols-2 lg:gap-16">
-          <div className="overflow-hidden rounded-2xl border border-sage/20 bg-white shadow-sm">
-            <div className="aspect-square">
-              <Image
-                src={product.image}
-                alt={product.name}
-                width={600}
-                height={600}
-                className="h-full w-full object-cover"
-                priority
-              />
-            </div>
-          </div>
+          <ProductImageSlider images={productImages} alt={product.name} />
 
           <div>
             {product.price && (

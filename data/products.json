@@ -5,7 +5,12 @@
     "name": "URAIC Capsules",
     "shortDescription": "Normalizes uric acid level and supports gout and arthritis relief.",
     "description": "URAIC Capsules are a proprietary Ayurvedic formulation designed to reduce gout pain, lower uric acid levels, support joint mobility, and provide anti-inflammatory support with kidney health benefits.",
-    "image": "/products/uraic.svg",
+    "image": "/products/uraic/uraic-pack.png",
+    "images": [
+      "/products/uraic/uraic-pack.png",
+      "/products/uraic/uraic-lifestyle.png",
+      "/products/uraic/uraic-composition.png"
+    ],
     "benefits": [
       "Helps control uric acid and associated disorders",
       "Supports relief in gout, fatigue, and joint pain",
@@ -37,7 +42,12 @@
     "name": "CR-500 Capsules",
     "shortDescription": "Advanced arthritic medicine for cartilage regeneration and joint support.",
     "description": "CR-500 Capsules are a unique formulation that supports complete cartilage and bone health. It is a rich source of natural calcium and is used for joint lubrication and regeneration of cartilage.",
-    "image": "/products/cr-500.svg",
+    "image": "/products/cr-500/cr500-pack.png",
+    "images": [
+      "/products/cr-500/cr500-pack.png",
+      "/products/cr-500/cr500-lifestyle.png",
+      "/products/cr-500/cr500-composition.png"
+    ],
     "benefits": [
       "Supports cartilage regeneration",
       "Helps reduce joint pain and stiffness",
